@@ -1,3 +1,6 @@
+-- I'm such a Haskell n00b. This program runs much slower than it's JavaScript translation.
+-- I know it's a case of I'm doing it wrong. I'd like to find the right path to englightenment and Haskell glory.
+
 increment :: Int -> Int -> Int -> Int
 increment number i range = if number `mod` i == 0
                             then divideByRange number (i + 1) range
