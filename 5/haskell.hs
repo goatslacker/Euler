@@ -13,3 +13,5 @@ divideByRange number i range = if i == range
 
 findSmallest :: Int -> Int -> Int
 findSmallest number range = divideByRange number 1 range
+
+--findSmallest 2520 20
