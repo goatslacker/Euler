@@ -22,3 +22,6 @@ getMultiplesInRange(Max) ->
 
 getSumOfMultiples() ->
   lists:sum(getMultiplesInRange(999)).
+
+%oneLine() ->
+%  lists:sum([X || X <- lists:seq(1, 999), isMultipleOf(X, 3) orelse isMultipleOf(X, 5)]).
