@@ -1,3 +1,3 @@
 ### http://projecteuler.net
 
-Solutions in various languages
+Solutions in mostly python
